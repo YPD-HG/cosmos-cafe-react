@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+.right-navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-links {
+    margin: 0px 25px 0px 25px;
+        cursor: pointer;
+
+}
+
+p {
+    cursor: pointer;
+}
+
+p:hover{
+    color: #ffffff;
+}
+
+.active {
+  text-decoration: underline
+}
