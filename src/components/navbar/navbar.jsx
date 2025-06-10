@@ -2,6 +2,16 @@ import { useHover } from "@uidotdev/usehooks"
 import { NavLink } from "react-router-dom"
 import "./navbar.css"
 
+
+//Implement dynamic navigation highlighting and smooth scrolling:
+
+// > * Underline the nav item based on the currently visible section.
+
+// > * Clicking a nav item should smoothly scroll to its corresponding section.
+
+// > * As the user scrolls, update the underline to reflect the current section in view.
+
+
 export function NavBar() {
 
     return <div className="navbar">
