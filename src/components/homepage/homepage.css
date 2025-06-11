@@ -1,0 +1,37 @@
+.homepage {
+    position: absolute;
+    height: 500px;
+    background-image:
+        url('./assets/images/homepage.png');
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0), #242424);
+    /* your gradient here */
+}
+
+.homepage-banner-img {
+    width: 1670px;
+    height: auto;
+    position: relative;
+    right: 170px;
+    bottom: 60px;
+}
+
+.homepage-container {
+    overflow-x: clip;
+    /* Hide horizontal scrollbar */
+}
+
+.homepage-about-cosmos {
+    position: absolute;
+}
+
+.homepage-astro-left {
+    position: relative;
+    left: 200px;
+    bottom: 350px
+}
+
+.homepage-astro-right {
+    position: relative;
+    left: 1000px;
+    bottom: 50px
+}
