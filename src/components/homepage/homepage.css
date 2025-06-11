@@ -1,5 +1,5 @@
 .homepage {
-    position: absolute;
+    position: relative;
     height: 500px;
     background-image:
         url('./assets/images/homepage.png');
@@ -7,31 +7,162 @@
     /* your gradient here */
 }
 
-.homepage-banner-img {
-    width: 1670px;
-    height: auto;
-    position: relative;
-    right: 170px;
-    bottom: 60px;
-}
-
 .homepage-container {
-    overflow-x: clip;
+    /* position: relative; */
+    /* overflow-x: clip; */
     /* Hide horizontal scrollbar */
 }
 
-.homepage-about-cosmos {
+.homepage-banner-img {
     position: absolute;
+    left: -100px;
+    width: 1500px;
+    height: auto;
+    position: absolute;
+    align-items: center;
+}
+
+.homepage-about-cosmos {
+    position: relative;
+    /* background-image:
+        url('././assets/curve/wave-haikei.svg'),
+        url('././assets/images/astronaut-64.png'),
+        url('././assets/images/astronaut-right.png'); */
+}
+
+.spacer {
+    aspect-ratio: 960/540;
+    width: 1670px;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+.layer1 {
+    position: absolute;
+    top: 640px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer2 {
+    position: absolute;
+    top: 660px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer3 {
+    position: absolute;
+    top: 680px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer4 {
+    position: absolute;
+    top: 700px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer5 {
+    position: absolute;
+    top: 720px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer6 {
+    position: absolute;
+    top: 740px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer7 {
+    position: absolute;
+    top: 760px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer8 {
+    position: absolute;
+    top: 860px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer9 {
+    position: absolute;
+    top: 880px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer10 {
+    position: absolute;
+    top: 900px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer11 {
+    position: absolute;
+    top: 920px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer12 {
+    position: absolute;
+    top: 940px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer13 {
+    position: absolute;
+    top: 960px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer14 {
+    position: absolute;
+    top: 980px;
+    background-image: url('././assets/curve/wave.png');
 }
 
 .homepage-astro-left {
-    position: relative;
-    left: 200px;
-    bottom: 350px
+    position: absolute;
+    top: 750px;
+    left: 150px;
 }
 
 .homepage-astro-right {
-    position: relative;
-    left: 1000px;
-    bottom: 50px
+    position: absolute;
+    top: 820px;
+    left: 1100px;
+}
+
+.about-card {
+    position: absolute;
+    width: 500px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+    border-radius: 30px;
+    left: 400px;
+    top: 700px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #505050;
+    box-shadow: 0px 0px 100px black;
+}
+
+.cosmos-img img {
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 10px 30px 10px 30px;
+}
+
+.card-content img {
+    position: absolute;
+    left: 90px;
 }
