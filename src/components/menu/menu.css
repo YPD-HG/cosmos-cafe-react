@@ -1,0 +1,48 @@
+.menu {
+    /* background-color: violet; */
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: scroll;
+}
+
+.menu-card {
+    background-color: #333333;
+    background-image: linear-gradient(circle, #505050, #333333);
+    width: 240px;
+    height: auto;
+    padding: 50px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #505050;
+    box-shadow: -5px 5px 50px black;
+    margin: 0px 10px 0px 10px;
+}
+
+.dish-img img {
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.dish-desc {
+    width: 240px;
+    height: auto;
+}
+
+.dish-desc h4 {
+    color: #00AEEE;
+    margin-bottom: 0px;
+}
+
+.dish-desc p {
+    color: #999999;
+    text-align: justify;
+    margin-top: 5px;
+    /* font-size: 13px; */
+    font-size: 1.0vw;
+    line-height: 1.75em;
+}
