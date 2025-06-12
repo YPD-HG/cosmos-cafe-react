@@ -42,7 +42,7 @@ export function HomePage() {
 
             <div className="about-card">
                 <div className="cosmos-img">
-                    <img className="cosmos-img" src="././assets/images/orange-portrait.png" alt="" />
+                    <img  src="././assets/images/orange-portrait.png" alt="" />
                 </div>
                 <div className="card-content">
                     <img src="././assets/images/star.png" alt="" />
@@ -62,6 +62,9 @@ export function HomePage() {
             </div>
         </div>
 
-
+        <div className="menu-heading">
+            <img src="././assets/images/star.png" alt="" />
+            <h2>Cosmos Menu</h2>
+        </div>
     </div>
 }

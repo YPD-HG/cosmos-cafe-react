@@ -23,11 +23,11 @@
 
 }
 
-p {
+.right-navbar p {
     cursor: pointer;
 }
 
-p:hover{
+.right-navbar p:hover{
     color: #ffffff;
 }
 
