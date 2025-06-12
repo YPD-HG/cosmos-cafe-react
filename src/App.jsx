@@ -1,6 +1,7 @@
 import { NavBar } from "./components/navbar/navbar"
 import { HomePage } from "./components/homepage/homepage";
 import { Menu } from "./components/menu/menu";
+import { Insta } from "./components/insta/insta";
 
 function App() {
   let menu = [
@@ -74,15 +75,8 @@ function App() {
     <HomePage />
     <div className="menu">
       {MenuComponent}
-      {/* <Menu img={menu[0].img} title={menu[0].title} para={menu[0].para} />
-
-      <Menu img={menu[1].img} title={menu[1].title} para={menu[1].para} />
-
-      <Menu img={menu[2].img} title={menu[2].title} para={menu[2].para} />
-
-      <Menu img={menu[3].img} title={menu[3].title} para={menu[3].para} />¸ */}
     </div>
-
+    <Insta />
   </div>
 }
 
