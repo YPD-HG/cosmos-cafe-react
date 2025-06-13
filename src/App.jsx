@@ -2,6 +2,7 @@ import { NavBar } from "./components/navbar/navbar"
 import { HomePage } from "./components/homepage/homepage";
 import { Menu } from "./components/menu/menu";
 import { Insta } from "./components/insta/insta";
+import { Footer } from "./components/footer/footer";
 
 function App() {
   let menu = [
@@ -67,9 +68,6 @@ function App() {
     para={dish.para}
   />)
 
-  console.log(MenuComponent);
-
-
   return <div>
     <NavBar />
     <HomePage />
@@ -77,6 +75,7 @@ function App() {
       {MenuComponent}
     </div>
     <Insta />
+    <Footer />
   </div>
 }
 

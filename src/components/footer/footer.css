@@ -1,0 +1,119 @@
+.footer {
+    position: relative;
+}
+
+.footer-upper {
+    height: 500px;
+    background-image: url('././assets/images/orange-landscape.png');
+    border-image: fill 0 linear-gradient(#242424, rgba(0, 0, 0, 0));
+}
+
+.footer-logo {
+    height: 730px;
+}
+
+.footer-logo-img {
+    width: fit-content;
+    position: relative;
+    right: 100px;
+    overflow-y: auto;
+}
+
+.cosmos-contact {
+    position: relative;
+    top: 200px;
+    isolation: isolate;
+}
+
+.contact-card {
+    background-color: #242424;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: thin solid #505050;
+    box-shadow: 0 0 30px black;
+    width: 300px;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.astro-footer-left {
+    position: relative;
+    left: 250px;
+    top: 130px;
+    z-index: 1;
+}
+
+.astro-footer-right {
+    position: relative;
+    left: 950px;
+    top: 330px;
+}
+
+.contact-star {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 50px;
+}
+
+.spacer-footer {
+    aspect-ratio: 960 / 540;
+    width: 1670px;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1-footer {
+    position: absolute;
+    top: -180px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer2-footer {
+    position: absolute;
+    top: -160px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer3-footer {
+    position: absolute;
+    top: -140px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer4-footer {
+    position: absolute;
+    top: -120px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+.layer5-footer {
+    position: absolute;
+    top: -100px;
+    background-image: url('././assets/curve/wave.png');
+}
+
+/* Typography & misc */
+.para {
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.blue {
+    color: #00AEEE;
+}
+
+.email {
+    margin-top: 0;
+}
+
+.address {
+    overflow-wrap: normal;
+    width: 250px;
+}
