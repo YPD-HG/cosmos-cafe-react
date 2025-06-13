@@ -8,3 +8,15 @@
   background-color: #242424;
   overflow-x: hidden;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  position: relative;
+}
+

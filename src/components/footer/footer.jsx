@@ -48,5 +48,9 @@ export function Footer() {
 
             </div>
         </div>
+        <div className="footer-semicircle">
+            <div class="arc">
+            </div>
+        </div>
     </div>
 }
