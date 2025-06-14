@@ -110,12 +110,64 @@
     width: 2000px;
     height: 2000px;
     border-radius: 50%;
-    background: yellow;
+    background: #FFAA33;
     bottom: -1900px;
     left: 50%;
     transform: translateX(-50%);
-    pointer-events: none;
     overflow: hidden;
+    box-shadow: 0 0px 0px 50px #242424,
+        0 -50px 20px 0 #505050,
+        0 -60px 0px 50px #242424,
+        0 -110px 20px 0 #505050,
+        0 -130px 0 40px #242424,
+        0 -170px 20px 0 #505050;
+
+    /* box-shadow: 0 0 0 50px #242424,
+                0px -50px 15px 0 orange,
+                0px -200px blue; */
+}
+
+.circle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #00AEEE;
+    border-radius: 50%;
+    top: 210px;
+    left: 630px;
+    z-index: 5;
+}
+
+
+.circle-2 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    top: 237px;
+    left: 638px;
+    z-index: 5;
+}
+
+.circle-3 {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    top: 277px;
+    left: 643px;
+    z-index: 5;
+}
+
+.cosmos-mark {
+    position: relative;
+    color: black;
+    font-size: 10px;
+    top: 380px;
+    left: 610px;
+    z-index: 6;
 }
 
 /* Typography & misc */
