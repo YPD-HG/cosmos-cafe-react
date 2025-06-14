@@ -38,9 +38,11 @@ export function Footer() {
 
                     <h4 style={{ marginBottom: "0", marginTop: "50px" }}>(437)833-4627</h4>
 
-                    <a className="blue email" href="info@cosmoscafe.com">info@cosmoscafe.com</a>
+                    <a style={{ cursor: "pointer" }} className="blue email" href="mailto:info@cosmoscafe.com">
+                        info@cosmoscafe.com
+                    </a>
 
-                    <p style={{ marginTop: "50px", marginBottom: "0px" }} className="blue">Cosmos Cafe</p>
+                    <p style={{ marginTop: "50px", marginBottom: "0px", cursor: "pointer" }} className="blue">Cosmos Cafe</p>
 
                     <p className="para address">104 N Beach Blvd, <br /> Bay St Louis, MS 39520, United States</p>
                 </div>
@@ -49,6 +51,10 @@ export function Footer() {
             </div>
         </div>
         <div className="footer-semicircle">
+            <div className="circle"></div>
+            <div className="circle-2"></div>
+            <div className="circle-3"></div>
+            <div className="cosmos-mark">© COSMOS 2025 </div>
             <div class="arc">
             </div>
         </div>
