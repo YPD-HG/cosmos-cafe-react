@@ -5,14 +5,14 @@ export function Footer() {
         <div className="footer-container">
             <div className="footer-upper">
                 <div className="footer-logo">
-                    <img className="footer-logo-img" src="././assets/images/logo.png" alt="" />
+                    <img className="footer-logo-img" src="/images/logo.png" alt="" />
                 </div>
             </div>
 
             <div className="cosmos-contact">
-                <img className="astro-footer-left" src="././assets/images/astronaut-64.png" alt="" />
+                <img className="astro-footer-left" src="/images/astronaut-64.png" alt="" />
 
-                <img className="astro-footer-right" src="././assets/images/astronaut-right.png" alt="" />
+                <img className="astro-footer-right" src="/images/astronaut-right.png" alt="" />
 
                 <div className="spacer-footer layer1-footer spacer-footer">
                 </div>
@@ -31,7 +31,7 @@ export function Footer() {
                 </div>
 
                 <div className="contact-card">
-                    <img className="contact-star" src="././assets/images/star.png" alt="" />
+                    <img className="contact-star" src="/images/star.png" alt="" />
                     <h3 style={{ marginBottom: "10px" }}><b>Contact</b></h3>
 
                     <p className="para">Got questions or want to chat?</p>

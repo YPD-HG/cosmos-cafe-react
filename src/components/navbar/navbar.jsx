@@ -16,7 +16,7 @@ export function NavBar() {
 
     return <div className="navbar">
         <div className="left-navbar">
-            <img className="logo" src="./assets/images/logo.png" alt="logo" />
+            <img className="logo" src="/images/logo.png" alt="logo" />
         </div>
         <div className="right-navbar">
 

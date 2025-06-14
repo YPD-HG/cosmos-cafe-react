@@ -1,12 +1,14 @@
 .menu {
     /* background-color: violet; */
-    padding: 100px;
+    padding: 100px 100px 200px 100px;
     display: flex;
     justify-content: space-evenly;
     overflow: scroll;
 }
 
 .menu-card {
+    position: relative;
+    top: 100px;
     background-color: #333333;
     background-image: linear-gradient(circle, #505050, #333333);
     width: 240px;

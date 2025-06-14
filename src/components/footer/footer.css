@@ -4,7 +4,7 @@
 
 .footer-upper {
     height: 500px;
-    background-image: url('././assets/images/orange-landscape.png');
+    background-image: url('/images/orange-landscape.png');
     border-image: fill 0 linear-gradient(#242424, rgba(0, 0, 0, 0));
 }
 
@@ -15,7 +15,8 @@
 .footer-logo-img {
     width: fit-content;
     position: relative;
-    right: 100px;
+    left: -50px;
+    right: 75px;
     overflow-y: auto;
 }
 
@@ -72,31 +73,31 @@
 .layer1-footer {
     position: absolute;
     top: -80px;
-    background-image: url('././assets/curve/wave.png');
+    background-image: url('/curve/wave.png');
 }
 
 .layer2-footer {
     position: absolute;
     top: -60px;
-    background-image: url('././assets/curve/wave.png');
+    background-image: url('/curve/wave.png');
 }
 
 .layer3-footer {
     position: absolute;
     top: -40px;
-    background-image: url('././assets/curve/wave.png');
+    background-image: url('/curve/wave.png');
 }
 
 .layer4-footer {
     position: absolute;
     top: -20px;
-    background-image: url('././assets/curve/wave.png');
+    background-image: url('/curve/wave.png');
 }
 
 .layer5-footer {
     position: absolute;
     top: 0px;
-    background-image: url('././assets/curve/wave.png');
+    background-image: url('/curve/wave.png');
 }
 
 .footer-semicircle {
@@ -134,7 +135,7 @@
     background-color: #00AEEE;
     border-radius: 50%;
     top: 210px;
-    left: 630px;
+    left: 700px;
     z-index: 5;
 }
 
@@ -146,7 +147,7 @@
     background-color: white;
     border-radius: 50%;
     top: 237px;
-    left: 637px;
+    left: 708px;
     z-index: 5;
 }
 
@@ -157,7 +158,7 @@
     background-color: white;
     border-radius: 50%;
     top: 277px;
-    left: 642px;
+    left: 713px;
     z-index: 5;
 }
 
@@ -166,7 +167,7 @@
     color: black;
     font-size: 10px;
     top: 380px;
-    left: 610px;
+    left: 680px;
     z-index: 6;
 }
 
